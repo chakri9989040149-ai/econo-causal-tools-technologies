@@ -1,0 +1,132 @@
+# 🚀 Day 2: Environment Setup and Dataset Preparation
+
+**Project:** EconoCausal — Dynamic Pricing via Double Machine Learning
+**Internship:** Infotact Solutions
+**Day:** 02
+**Focus:** Development Environment Setup & Dataset Preparation
+**Status:** Environment Setup Completed
+
+---
+
+## 📌 1. Overview
+
+Day 2 focused on establishing the development environment and preparing the initial dataset for the EconoCausal project. The objective was to configure the necessary tools for data analysis and machine learning, ensuring that the environment was ready for subsequent data exploration and model development.
+
+The project aims to investigate the relationship between pricing strategies, discounts, and customer purchasing behaviour, with a focus on applying causal machine learning techniques to support data-driven pricing decisions.
+
+## 📊 2. Dataset Collection
+
+The dataset required for the project was downloaded and prepared for the upcoming analysis phase.
+
+The dataset will be examined to understand its structure, identify relevant variables, and determine its suitability for analysing the relationship between pricing decisions and purchasing behaviour.
+
+### Planned Dataset Exploration
+
+* Identify the number of rows and columns.
+* Examine column names and data types.
+* Identify relevant pricing, discount, and purchasing variables.
+* Check for missing values and duplicate records.
+* Investigate potential data quality issues.
+* Determine whether the available variables are suitable for the planned analysis.
+
+**Note:** Dataset inspection and validation will be performed during the next stage. The causal suitability of the dataset will be assessed after examining its variables and data-generating context.
+
+## 🛠️ 3. Development Environment Setup
+
+### Anaconda
+
+Anaconda was configured as the Python development environment for the project.
+
+It provides tools for managing Python environments and working with commonly used data science libraries.
+
+**Purpose:**
+
+* Organise the Python development environment.
+* Support the installation and management of data science packages.
+* Provide access to Jupyter Notebook through Anaconda Navigator.
+
+### Jupyter Notebook
+
+Jupyter Notebook was successfully launched through Anaconda Navigator and opened in the web browser.
+
+It will serve as the primary workspace for interactive Python programming, dataset exploration, statistical analysis, and data visualisation.
+
+**Purpose:**
+
+* Execute Python code interactively.
+* Inspect and manipulate datasets.
+* Document analytical observations.
+* Visualise relationships between variables.
+* Experiment with data preprocessing and machine learning techniques.
+
+## 💻 4. Technologies and Tools
+
+| Technology       | Purpose                                               |
+| ---------------- | ----------------------------------------------------- |
+| Python           | Data analysis and machine learning implementation     |
+| Anaconda         | Python environment and package management             |
+| Jupyter Notebook | Interactive data analysis and experimentation         |
+| Git              | Version control and change tracking                   |
+| GitHub           | Project repository hosting and progress documentation |
+
+## ✅ 5. Tasks Completed
+
+* [x] Downloaded the dataset required for the project.
+* [x] Set up the Anaconda development environment.
+* [x] Opened Anaconda Navigator.
+* [x] Successfully launched Jupyter Notebook.
+* [x] Verified that Jupyter Notebook opened in the browser.
+* [x] Prepared the environment for the upcoming data exploration phase.
+
+## 📚 6. Learning Outcomes
+
+This session provided practical experience in preparing a Python-based data science environment.
+
+Key takeaways:
+
+* Understood the role of Anaconda in managing a data science environment.
+* Learned how to launch Jupyter Notebook through Anaconda Navigator.
+* Became familiar with the interactive workflow used for data analysis.
+* Recognised the importance of examining dataset structure and quality before model development.
+* Established the initial workflow for the EconoCausal project.
+
+## 🔍 7. Challenges and Observations
+
+The main focus of this session was configuring the development environment and verifying that the required tools were accessible.
+
+Successfully launching Jupyter Notebook established the foundation for the next stage of implementation.
+
+Further work is required to inspect the dataset, validate its quality, identify relevant features, and determine the appropriate analytical approach.
+
+## 🎯 8. Next Steps
+
+The following activities are planned for Day 3:
+
+1. Load the downloaded dataset into Jupyter Notebook using Pandas.
+2. Inspect the dataset dimensions, column names, and data types.
+3. Generate descriptive statistics for numerical variables.
+4. Identify missing values and duplicate records.
+5. Explore the distributions of relevant pricing and purchasing variables.
+6. Perform initial Exploratory Data Analysis (EDA).
+7. Document the initial findings and potential data quality issues.
+8. Assess whether the dataset is appropriate for causal effect estimation.
+
+## 🧠 9. Connection to the EconoCausal Project
+
+The development environment established during Day 2 will support the project's subsequent data preparation, exploratory analysis, and modelling activities.
+
+Once the dataset has been inspected and validated, the next objective will be to investigate how pricing decisions or discounts relate to purchasing outcomes while accounting for relevant confounding factors.
+
+This preparation will support the eventual implementation and evaluation of Double Machine Learning (DML), subject to the dataset's suitability and the project's confirmed requirements.
+
+## 🏁 10. Conclusion
+
+Day 2 established the initial technical foundation for the EconoCausal project. The dataset was downloaded, Anaconda was configured, and Jupyter Notebook was successfully launched and verified.
+
+With the development environment ready, the next phase will focus on dataset inspection, data quality assessment, and exploratory data analysis.
+
+**Progress:** Environment Setup Completed | Dataset Downloaded | Data Exploration Pending
+
+---
+
+*EconoCausal — Exploring Causal Machine Learning for Data-Driven Dynamic Pricing.*
