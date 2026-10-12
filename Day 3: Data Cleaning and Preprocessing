@@ -1,0 +1,130 @@
+## 1. Introduction
+
+On Day 3 of my internship project, **EconoCausal – Dynamic Pricing via Double Machine Learning (DML)**, I focused on cleaning and preprocessing the collected dataset. The primary objective of this stage was to understand the dataset's structure, identify potential data quality issues, and prepare the data for further analysis.
+
+Data cleaning and preprocessing are essential steps in a data science project because the quality of the input data directly affects the reliability of the analysis and the performance of machine learning models.
+
+## 2. Objectives
+
+The main objectives of today's work were:
+
+* To understand the overall structure and organization of the dataset.
+* To inspect the dataset for missing or null values.
+* To identify duplicate records that could affect the analysis.
+* To examine column names and data types.
+* To check the consistency and quality of the available data.
+* To prepare the dataset for Exploratory Data Analysis (EDA) and subsequent causal effect estimation.
+
+## 3. Activities Performed
+
+### 3.1 Dataset Inspection
+
+I began by examining the dataset to understand its dimensions, structure, and contents. This step helped me identify the available features and understand how the data was organized.
+
+The inspection focused on:
+
+* Number of rows and columns.
+* Column names and their meanings.
+* Data types of individual columns.
+* General structure of the dataset.
+* Initial observations about the quality of the data.
+
+Understanding these characteristics is important before applying any data transformation or analytical technique.
+
+### 3.2 Missing Value Analysis
+
+I checked the dataset for missing and null values to determine whether any columns contained incomplete information.
+
+Missing values can affect statistical analysis and machine learning models if they are not handled appropriately.
+
+The purpose of this step was to:
+
+* Identify columns containing missing values.
+* Determine the extent of missing data.
+* Understand which features might require additional preprocessing.
+* Decide whether further investigation or an appropriate missing-value treatment would be necessary.
+
+### 3.3 Duplicate Record Identification
+
+I examined the dataset for duplicate records that could potentially lead to repeated observations in the analysis.
+
+Duplicate records may introduce unwanted bias, affect summary statistics, and influence the interpretation of results.
+
+Identifying duplicates is therefore an important part of ensuring data consistency. Any records identified as duplicates should be investigated before deciding whether they need to be removed.
+
+### 3.4 Data Type Examination
+
+I reviewed the data types of the available columns to understand how different variables were represented.
+
+For example:
+
+* Numerical variables may represent prices, quantities, or other measurable values.
+* Categorical variables may represent product categories or other groups.
+* Date and time variables may represent when observations were recorded.
+
+Correct data types are important because they determine which statistical operations, visualizations, and preprocessing techniques can be applied to each variable.
+
+### 3.5 Data Structure and Quality Review
+
+After checking missing values, duplicate records, and data types, I reviewed the overall data structure to identify potential inconsistencies that might affect future analysis.
+
+This step helped establish a clearer understanding of the dataset and the preprocessing requirements for the upcoming stages of the project.
+
+## 4. Importance of Data Preprocessing in EconoCausal
+
+The EconoCausal project focuses on dynamic pricing using Double Machine Learning (DML), with the broader objective of studying the relationship between pricing decisions and their effects on business outcomes.
+
+Reliable causal analysis requires suitable data and careful consideration of the variables used in the model.
+
+Data cleaning and preprocessing help establish a suitable foundation for:
+
+* **Exploratory Data Analysis (EDA):** Understanding distributions, patterns, and relationships among variables.
+* **Data Visualization:** Presenting important trends and relationships through charts and graphs.
+* **Feature Preparation:** Identifying and preparing relevant variables for subsequent analysis.
+* **Causal Effect Estimation:** Preparing the data required to estimate the effect of pricing on the selected outcome.
+* **Pricing Analysis:** Supporting later investigation of how different pricing decisions may influence the outcome of interest.
+
+Preprocessing alone does not guarantee accurate causal estimates, but it is an important step toward reliable analysis.
+
+## 5. Challenges and Learning Outcomes
+
+During this stage, I strengthened my understanding of the importance of data quality in data science projects.
+
+Key learning outcomes included:
+
+* Understanding why dataset inspection should precede detailed analysis.
+* Learning how missing values can affect analytical results.
+* Recognizing the potential impact of duplicate records.
+* Understanding the importance of appropriate data types.
+* Learning how data quality checks support the machine learning workflow.
+* Understanding the role of preprocessing in preparing data for causal inference.
+
+This stage also helped me connect fundamental data analysis concepts with the practical requirements of a real-world pricing analytics project.
+
+## 6. Outcome of the Day
+
+The dataset was reviewed for its overall structure, missing values, duplicate records, and data types. These checks helped identify the areas requiring attention before proceeding to the next stage of analysis.
+
+The findings from this stage will guide the remaining preprocessing activities and help establish a consistent dataset for subsequent analysis.
+
+**Note:** The exact cleaning results, such as the number of missing values, duplicate records, or any modifications made to the dataset, should be documented based on the actual inspection results.
+
+## 7. Next Steps
+
+The next stage of the EconoCausal project will focus on:
+
+1. Completing any necessary data cleaning and transformations.
+2. Performing Exploratory Data Analysis (EDA).
+3. Generating visualizations to understand variable distributions and relationships.
+4. Identifying relevant treatment, outcome, and control variables for the DML analysis.
+5. Preparing the dataset for causal effect estimation and subsequent pricing simulations.
+
+## 8. Conclusion
+
+Day 3 was dedicated to understanding and improving the quality of the dataset for the EconoCausal – Dynamic Pricing via Double Machine Learning project.
+
+By reviewing missing values, duplicate records, data types, and the overall data structure, I established a foundation for the next phases of the project. This work reinforced the importance of systematic data preparation in developing meaningful data-driven insights and conducting reliable causal analysis.
+
+**Project:** EconoCausal – Dynamic Pricing via Double Machine Learning (DML)
+**Internship Progress:** Day 3 – Data Cleaning and Preprocessing
+**Tools:** Python, Jupyter Notebook, and Pandas *(list only the tools actually used)*
